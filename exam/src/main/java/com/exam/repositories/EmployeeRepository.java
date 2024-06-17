@@ -1,5 +1,8 @@
 package com.exam.repositories;
 
+import com.exam.models.Employee;
+
 public interface EmployeeRepository {
-    public
+    Employee findAll();
+    Employee create(Employee employee);
 }
